@@ -21,7 +21,7 @@
 
 # 📖 Book Collection <a name="about-project"></a>
 
-**Book Collection** In this project, I will restructure my Awesome books app code. The goal is to make it more organized by using modules. I will also practice the ES6 syntax that I have learned.
+**Book Collection** In this project, I will restructure my [Awesome books](https://github.com/rubydevi/book-collection) app code. The goal is to make it more organized by using modules. I will also practice the ES6 syntax that I have learned.
 
 ### Tech Stack <a name="tech-stack"></a>
 
