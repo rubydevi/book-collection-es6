@@ -61,7 +61,7 @@
 In order to run this project you need:
 1. git
 2. VS Code or any code editor
-3. NPM intalled
+3. npm intalled
 
 
 ### Setup
