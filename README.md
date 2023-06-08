@@ -21,7 +21,7 @@
 
 # 📖 Book Collection <a name="about-project"></a>
 
-**Book Collection** In this project, I will build a basic website that allows users to add/remove books from a list. I will achieve that by using JavaScript objects and arrays. I will also need to dynamically modify the DOM and add basic events.
+**Book Collection** In this project, I will restructure my Awesome books app code. The goal is to make it more organized by using modules. I will also practice the ES6 syntax that I have learned.
 
 ### Tech Stack <a name="tech-stack"></a>
 
