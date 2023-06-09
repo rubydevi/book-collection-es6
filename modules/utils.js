@@ -1,6 +1,7 @@
 /* eslint linebreak-style: ["error", "windows"] */
 
-const formatDate = (date) => {
+// modules/utils.js
+export const formatDate = (date) => {
   const options = {
     year: 'numeric',
     month: 'long',
@@ -13,5 +14,3 @@ const formatDate = (date) => {
 
   return date.toLocaleString('en-US', options).replace(',', '');
 };
-
-export default formatDate;
