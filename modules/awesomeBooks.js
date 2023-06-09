@@ -1,7 +1,7 @@
 /* eslint linebreak-style: ["error", "windows"] */
-import Book from './book';
+import Book from './book.js';
 
-export class AwesomeBooks {
+class AwesomeBooks {
   constructor() {
     this.books = JSON.parse(localStorage.getItem('books')) || [];
     this.bookList = document.getElementById('bookList');
@@ -50,3 +50,5 @@ export class AwesomeBooks {
     authorInput.value = '';
   }
 }
+
+export default { AwesomeBooks };
