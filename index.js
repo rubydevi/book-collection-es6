@@ -1,7 +1,6 @@
 /* eslint linebreak-style: ["error", "windows"] */
 import { DateTime } from './modules/luxon.js';
 import AwesomeBooks from './modules/awesomeBooks.js';
-// import { formatDate } from './modules/utils.js';
 
 // Instantiate AwesomeBooks
 const bookCollection = new AwesomeBooks();
