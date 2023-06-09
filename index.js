@@ -1,5 +1,5 @@
 /* eslint linebreak-style: ["error", "windows"] */
-import { DateTime } from './modules/luxon.js';
+import { DateTime } from './node_modules/luxon/src/luxon.js';
 import AwesomeBooks from './modules/awesomeBooks.js';
 
 // Instantiate AwesomeBooks
@@ -13,7 +13,7 @@ const spanElement = document.getElementById('textDate');
 const updateTime = () => {
   const currentDate = DateTime.local().toFormat('MMMM dd yyyy, hh:mm:ss a');
   spanElement.textContent = currentDate;
-}
+};
 
 // Display the initial time below the navigation bar
 updateTime();
