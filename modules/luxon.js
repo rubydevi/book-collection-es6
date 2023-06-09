@@ -1,3 +1,4 @@
+/* eslint linebreak-style: ["error", "windows"] */
 // these aren't really private, but nor are they really useful to document
 
 /**
