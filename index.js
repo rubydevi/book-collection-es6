@@ -1,4 +1,5 @@
 /* eslint linebreak-style: ["error", "windows"] */
+import { DateTime } from './modules/luxon.js';
 import AwesomeBooks from './modules/awesomeBooks.js';
 // import { formatDate } from './modules/utils.js';
 
@@ -6,12 +7,13 @@ import AwesomeBooks from './modules/awesomeBooks.js';
 const bookCollection = new AwesomeBooks();
 bookCollection.displayBooks();
 
-// // Set datetime.now
-// const spanElement = document.getElementById('textDate');
-// const currentDate = new Date();
+// Set datetime.now
+const spanElement = document.getElementById('textDate');
+const currentDate = DateTime.now();
 // const formattedDate = formatDate(currentDate);
 
 // spanElement.innerHTML = formattedDate;
+spanElement.innerHTML = currentDate;
 
 // Get all list items
 const listItems = document.querySelectorAll('.list-item');
