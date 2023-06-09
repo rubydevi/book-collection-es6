@@ -1,3 +1,4 @@
+/* eslint linebreak-style: ["error", "windows"] */
 import Book from './book';
 
 export class AwesomeBooks {
