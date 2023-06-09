@@ -1,7 +1,7 @@
 /* eslint linebreak-style: ["error", "windows"] */
 import Book from './book.js';
 
-class AwesomeBooks {
+export default class AwesomeBooks {
   constructor() {
     this.books = JSON.parse(localStorage.getItem('books')) || [];
     this.bookList = document.getElementById('bookList');
@@ -41,7 +41,7 @@ class AwesomeBooks {
     this.displayBooks();
   }
 
-  submitBookForm(event) {
+  submitBookForm = (event) => {
     event.preventDefault();
     const titleInput = document.getElementById('title');
     const authorInput = document.getElementById('author');
@@ -50,5 +50,3 @@ class AwesomeBooks {
     authorInput.value = '';
   }
 }
-
-export default { AwesomeBooks };
