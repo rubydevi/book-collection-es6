@@ -1,4 +1,6 @@
-export function formatDate(date) {
+/* eslint linebreak-style: ["error", "windows"] */
+
+const formatDate = (date) => {
   const options = {
     year: 'numeric',
     month: 'long',
@@ -6,8 +8,10 @@ export function formatDate(date) {
     hour: 'numeric',
     minute: 'numeric',
     second: 'numeric',
-    hour12: true
+    hour12: true,
   };
 
   return date.toLocaleString('en-US', options).replace(',', '');
-}
+};
+
+export default formatDate;
