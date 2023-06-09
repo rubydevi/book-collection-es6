@@ -7,13 +7,20 @@ import AwesomeBooks from './modules/awesomeBooks.js';
 const bookCollection = new AwesomeBooks();
 bookCollection.displayBooks();
 
-// Set datetime.now
+// Get Date Text Display ID
 const spanElement = document.getElementById('textDate');
-const currentDate = DateTime.now();
-// const formattedDate = formatDate(currentDate);
 
-// spanElement.innerHTML = formattedDate;
-spanElement.innerHTML = currentDate;
+// Function to update the displayed time
+const updateTime = () => {
+  const currentDate = DateTime.local().toFormat('MMMM dd yyyy, hh:mm:ss a');
+  spanElement.textContent = currentDate;
+}
+
+// Display the initial time below the navigation bar
+updateTime();
+
+// Update the time every second
+setInterval(updateTime, 1000);
 
 // Get all list items
 const listItems = document.querySelectorAll('.list-item');
