@@ -1,4 +1,3 @@
-/* eslint linebreak-style: ["error", "windows"] */
 import Book from './book.js';
 
 export default class AwesomeBooks {

@@ -1,4 +1,3 @@
-/* eslint linebreak-style: ["error", "windows"] */
 import { DateTime } from './node_modules/luxon/src/luxon.js';
 import AwesomeBooks from './modules/awesomeBooks.js';
 
