@@ -7,14 +7,14 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
 }
 
 ul {
   list-style: none;
 }
 
-hr {  
+hr {
   border: 1px solid #000;
   margin: 3%;
   width: 13%;
@@ -51,14 +51,14 @@ button {
   color: #fff;
   border: none;
   cursor: pointer;
-  box-shadow: 3px 4px 0px rgb(0 0 0);
+  box-shadow: 3px 4px 0 rgb(0 0 0);
 }
 
 button:hover {
   background-color: #c62828;
 }
 
-.form-content {  
+.form-content {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -78,14 +78,11 @@ button:hover {
   font-weight: 700;
 }
 
-
-/* Day 3 */
-
 a {
   text-decoration: none;
 }
 
-header, 
+header,
 footer {
   display: flex;
   background-color: #f2f2f2;
@@ -123,13 +120,13 @@ nav ul li a {
   padding: 5px;
 }
 
-#textDate {  
+#textDate {
   display: flex;
   align-self: flex-end;
   padding-right: 3%;
 }
 
-.section {  
+.section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,7 +142,7 @@ nav ul li a {
   color: #2e567b;
 }
 
-footer p {  
+footer p {
   padding: 0 2%;
 }
 
