@@ -8,8 +8,67 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  
+  <div class="container">
+    <header>
+      <nav>
+        <a href="#">Awesome Books</a>
+        <ul>
+          <li>
+            <a href="#list" class="list-item">List</a>
+          </li>
+          <li>
+            <a href="#add" class="list-item">Add New</a>
+          </li>
+          <li>
+            <a href="#contact" class="list-item">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <span id="textDate"></span>
 
-  <script src="index.js"></script>
+    <!-- Section 1 -->
+    <section id="list" class="section">
+      <h1>All awesome books</h1>
+      <ul id="bookList" class="table">
+        <!-- List of books -->
+      </ul>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="add" class="section">
+      <h1>Add a new book</h1>
+      <form id="bookContent">
+        <div class="form-content">
+          <input type="text" id="title" placeholder="Title" required>
+          <input type="text" id="author" placeholder="Author" required>
+          <button type="submit" id="btnAddBook">Add Book</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="contact" class="section">
+      <h1>Contact information</h1>
+
+      <div>
+        <p>Do you have any questions or you want to simply say "Hello"?</p>
+        <p>You can reach out to us!</p>
+
+        <ul>
+          <li>Email us at ruby@awesomebooks.com</li>
+          <li>Call us at +91 98745-37352</li>
+          <li>Visit us at Lamphel, Uripok, Manipur-705004</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="stick-bottom">
+      <p>Copyright...</p>
+    </footer>
+    
+  </div>
+
+  <script type="module" src="index.js"></script>
 </body>
 </html>
