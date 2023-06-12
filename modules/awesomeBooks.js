@@ -9,7 +9,7 @@ export default class AwesomeBooks {
     this.displayBooks();
   }
 
-  displayBooks() {
+  displayBooks = () => {
     this.bookList.innerHTML = '';
 
     this.books.forEach((book, index) => {
@@ -27,14 +27,14 @@ export default class AwesomeBooks {
     });
   }
 
-  addBook(title, author) {
+  addBook = (title, author) => {
     const newBook = new Book(title, author);
     this.books.push(newBook);
     localStorage.setItem('books', JSON.stringify(this.books));
     this.displayBooks();
   }
 
-  removeBook(index) {
+  removeBook = (index) => {
     this.books.splice(index, 1);
     localStorage.setItem('books', JSON.stringify(this.books));
     this.displayBooks();
